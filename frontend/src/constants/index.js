@@ -1,0 +1,6 @@
+export const DATE_FORMAT = 'DD-MM-YYYY';
+
+export const ADD_PRODUCT = 'ADD_PRODUCT';
+export const REMOVE_PRODUCT = 'REMOVE_PRODUCT';
+export const REMOVE_PRODUCT_TYPE = 'REMOVE_PRODUCT_TYPE';
+export const CLEAR_CART = 'CLEAR_CART';

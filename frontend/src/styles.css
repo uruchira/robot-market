@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #1a1a1a;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alert {
+  color: #d0342c;
+}
+
+.logo-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.header img {
+  padding: 0 1rem;
+}
+
+.header span {
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  font-size: 0.65rem;
+  font-weight: bold;
+  min-width: 20px;
+  text-align: center;
+}
+
+.footer {
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  display: flex;
+  font-size: 0.75rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.main-section {
+  display: flex;
+  margin-top: 50px;
+}
+
+.product-section {
+  min-height: 500px;
+  padding: 1rem;
+  width: 60%;
+}
+
+.cart-section {
+  margin-top: 1rem;
+  width: 40%;
+}
+
+.product-filter {
+  height: 30px;
+  padding-left: 5px;
+  width: 200px;
+}
+
+.product-header {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.product-grid {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+table td.center,
+table th.center {
+  text-align: center;
+}
+
+table td.right,
+table th.right {
+  text-align: right;
+}
+
+table tr span {
+  display: block;
+  color: #55595c;
+}
+
+table tr p {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.table-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.totals-section {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.25rem;
+  padding: 0.75rem 4.75rem 0.75rem 0.75rem;
+}
+
+.totals-section p {
+  color: #55595c;
+  font-weight: 300;
+  padding-right: 1rem;
+}
+
+.totals-section .total-values {
+  min-width: 125px;
+  text-align: right;
+}

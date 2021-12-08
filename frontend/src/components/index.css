@@ -1,0 +1,104 @@
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  flex: 1 1 auto;
+  min-height: 1px;
+  margin: 0 1rem 1rem 0;
+  padding: 1rem;
+  position: relative;
+  width: 22%;
+  word-wrap: break-word;
+}
+
+.card button {
+  background-color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+  cursor: pointer;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.65rem;
+  color: #fff;
+  display: block;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  height: 30px;
+  line-height: 31px;
+}
+
+.card button:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+.card button:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.card img {
+  object-fit: cover;
+  height: auto;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.card-body-header {
+  color: #55595c;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-top: 1rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.card-body-tag {
+  border: 1px solid #1a1a1a;
+  font-size: 0.6rem;
+  font-weight: 400;
+  padding: 1px 7px;
+  display: inline;
+  border-radius: 8px;
+  letter-spacing: 1px;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  justify-content: space-between;
+  margin: 10px 0 20px;
+}
+
+.card-info h2 {
+  display: flex;
+  font-size: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-info span {
+  font-size: 0.75rem;
+}
+
+.card-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.card-footer span {
+  font-style: italic;
+  font-size: 0.75rem;
+  color: #55595c;
+}
